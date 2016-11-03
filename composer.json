@@ -1,0 +1,22 @@
+{
+    "name": "replay/auth",
+    "license": [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "laravel/framework": "5.3.*",
+        "tightenco/mailthief": "^0.3",
+        "friendsofphp/php-cs-fixer": "^1.12"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Replay\\Auth\\": "src",
+            "Replay\\Auth\\Test\\": "tests"
+        }
+    }
+}
